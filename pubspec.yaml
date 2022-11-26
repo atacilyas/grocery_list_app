@@ -1,0 +1,30 @@
+name: grocery_list_app
+description: A small project using MVC to showcase flutter skills
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+dependencies:
+  collection: ^1.16.0
+
+  cupertino_icons: ^1.0.2
+  flutter:
+    sdk: flutter
+
+  path_provider: ^2.0.11
+  very_good_analysis: ^3.1.0
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+   - assets/

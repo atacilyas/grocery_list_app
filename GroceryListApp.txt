@@ -1,0 +1,34 @@
+GroceryList app:
+- Everything stored locally on device (no API)
+- Grocery list is stored per user
+- Use MVC pattern where possible
+
+LoginScreen:
+- email
+- password
+- login button
+- register button
+- show popup if email and password confirmation is not known
+
+RegisterScreen:
+- first name
+- last name
+- email
+- password
+- confirm password
+- date of birth
+- register button
+- show popup if email is invalid format
+- show popup if passwords don't match
+
+HomeScreen:
+- top bar with Add Grocery button (left aligned) & Settings button (right aligned)
+- show popup when Add Grocery button is clicked where you can input the name of the grocery and the amount needed
+- afterwards it should appear in the global list on this Screen
+- each grocery item in the global list should have an edit button to edit the grocery entry and a delete button to remove it from the list
+- there should be clear button to clear the list completely
+- list should be automatically saved to disk, so the user can modify his list again at a later moment
+
+SettingsScreen:
+- logout button
+- show confirmation dialog after pressing logout button
